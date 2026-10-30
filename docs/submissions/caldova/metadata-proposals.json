@@ -1,0 +1,92 @@
+{
+  "status": "draft-only-not-an-installable-manifest",
+  "publication": "hold-until-clearance-validation-and-explicit-approval",
+  "proposals": [
+    {
+      "template": {
+        "name": "caldova-cologne-digital-twin",
+        "displayName": "Caldova Cologne Digital Twin",
+        "description": "Explore a synthetic pharmaceutical distribution scenario through a Cologne digital twin, adapted Caldova reorder workflow and two IBCS-oriented finance pages.",
+        "category": "digital-twins"
+      },
+      "manifestProposal": {
+        "templateId": "caldova-cologne-digital-twin",
+        "icon": "caldova-cologne-digital-twin",
+        "services": {
+          "auth": true,
+          "data": true,
+          "storage": false,
+          "staticHosting": true
+        },
+        "hasDabSchema": false,
+        "tokens": []
+      },
+      "functionsEnabled": false,
+      "replacementTokensVerified": false,
+      "previewProposal": {
+        "path": "docs/previews/caldova-cologne-digital-twin.webp",
+        "width": 1280,
+        "height": 800,
+        "maxBytesExclusive": 200000,
+        "created": false
+      },
+      "blockedBy": [
+        "Third-party vendor-code redistribution clearance pending",
+        "Public-safe source and portable configuration not prepared",
+        "Current spatial payload exceeds the standing 50 MB per-app budget",
+        "Clean install, gallery scaffold and release validation not completed"
+      ]
+    },
+    {
+      "template": {
+        "name": "caldova-finance-ibcs",
+        "displayName": "Caldova Finance: IBCS Financial Statements",
+        "description": "Review articulated income statement, balance sheet and cash flow using generated Caldova data, forecast adjustments, comments and month-end close workflow.",
+        "category": "analytics"
+      },
+      "manifestProposal": {
+        "templateId": "caldova-finance-ibcs",
+        "icon": "caldova-finance-ibcs",
+        "services": {
+          "auth": true,
+          "data": true,
+          "storage": false,
+          "staticHosting": true
+        },
+        "hasDabSchema": false,
+        "tokens": []
+      },
+      "functionsEnabled": false,
+      "replacementTokensVerified": false,
+      "identifierMigrationRequired": true,
+      "identifierMigrationNote": "Current standalone package uses financial-statements-ibcs; align package, template, manifest, folder and Rayfin identifiers only when preparing the release candidate.",
+      "previewProposal": {
+        "path": "docs/previews/caldova-finance-ibcs.webp",
+        "width": 1280,
+        "height": 800,
+        "maxBytesExclusive": 200000,
+        "created": false
+      },
+      "blockedBy": [
+        "Separate public-source, licensing and synthetic-data provenance checks required",
+        "Current identifiers/category require alignment with gallery proposal",
+        "Regeneration prerequisites and clean installation need verification",
+        "Current gallery scaffold and release validation not completed"
+      ]
+    }
+  ],
+  "originalBase": {
+    "title": "Caldova Reorder, Microsoft LTG291",
+    "url": "https://github.com/microsoft/frontiertour27-LTG291-turn-your-data-into-production-apps-with-rayfin",
+    "applicationAuthor": "Yohan Lasorsa (@sinedied)",
+    "copyrightHolder": "Microsoft Corporation",
+    "sessionDocumentationContributor": "Mike Kinsman (@mikekinsman)",
+    "submitUnchangedDuplicate": false
+  },
+  "creditNotes": {
+    "adaptation": "Alexander Korn",
+    "integratedFinanceAndVisuals": "Michael Tenner / DatenWG",
+    "standaloneAdaptedCode": "IBCS notation helpers and Excel/PowerPoint export structure from Michael Tenner / DatenWG, with the original MIT notice"
+  },
+  "generationNote": "These are metadata proposals only. Generate real gallery manifests with the current upstream generator after the actual cleared template source exists; verify service flags, schemas and replacement tokens then."
+}
